@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Launch } from "../../generated/graphql";
-import { QueryResult } from "react-apollo";
+import { QueryResult } from "@apollo/client";
 
 export type LaunchesProp = {
     launches: QueryResult;

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useLaunchQuery } from "../../generated/graphql";
-import { QueryResult } from "react-apollo";
+import { QueryResult } from "@apollo/client";
 
 const Launch = ({ id }: { id: number }) => {
     const { data,error, loading }: QueryResult = useLaunchQuery({
